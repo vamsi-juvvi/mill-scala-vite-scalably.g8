@@ -1,0 +1,42 @@
+2023.07.08 17:04:18 INFO  Started: Metals version 0.11.12 in workspace '/home/vamsi/github/mill-scala-vite-scalably.g8' for client Visual Studio Code 1.79.2.[0m
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/vamsi/github/mill-scala-vite-scalably.g8/.metals/metals (H2 2.1)
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.008s)
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 08, 2023 5:04:18 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.032s)
+2023.07.08 17:04:18 INFO  time: initialize in 0.34s[0m
+2023.07.08 17:04:18 WARN  Build server is not auto-connectable.[0m
+2023.07.08 17:05:01 WARN  no build target for: /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/$name__camel$/src/$package$/Hello.scala[0m
+2023.07.08 17:05:02 INFO  no build target found for /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/$name__camel$/src/$package$/Hello.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.07.08 17:05:03 INFO  time: code lens generation in 1.48s[0m
+2023.07.08 17:06:37 WARN  no build target for: /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/$name__camel$/test/src/$package$/HelloTest.scala[0m
+2023.07.08 17:06:41 WARN  no build target for: /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/$name__camel$/src/$package$/Hello.scala[0m
+2023.07.08 17:07:14 WARN  no build target for: /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/$name__camel$/test/src/$package$/HelloTest.scala[0m
+2023.07.08 17:07:15 WARN  no build target for: /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/$name__camel$/src/$package$/Hello.scala[0m
+2023.07.08 17:07:28 WARN  no build target for: /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/$name__camel$/project/scalablytyped.sc[0m
+2023.07.08 17:08:02 WARN  no build target for: /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/build.sc[0m
+2023.07.08 17:08:12 WARN  no build target for: /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/build.sc[0m
+2023.07.08 17:21:42 WARN  no build target for: /home/vamsi/github/mill-scala-vite-scalably.g8/src/main/g8/$name__camel$/src/$package$/Hello.scala[0m
+Jul 09, 2023 12:34:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
